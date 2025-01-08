@@ -15,6 +15,7 @@ const SearchBox = ({ searchQuery, setSearchQuery }) => {
           type="text"
           value={searchQuery}
           onChange={handleSearchChange}
+          placeholder="Enter name"
         />
       </label>
     </div>

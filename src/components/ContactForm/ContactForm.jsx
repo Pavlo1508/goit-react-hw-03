@@ -53,7 +53,7 @@ const ContactForm = ({ onAddContact }) => {
                 className={s.input}
                 name="name"
                 pattern="^[A-Za-zА-Яа-яЁё\s]+$"
-                title="Name must contain only letters and spaces"
+                placeholder="Enter your name"
               />
               <ErrorMessage name="name" component="div" className={s.error} />
             </label>
@@ -63,6 +63,7 @@ const ContactForm = ({ onAddContact }) => {
               <Field
                 className={s.input}
                 name="number"
+                placeholder="Enter your number"
               />
               <ErrorMessage name="number" component="div" className={s.error} />
             </label>
